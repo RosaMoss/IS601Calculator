@@ -8,7 +8,7 @@ def classfactory(class_name, dictionary):
 
 '''
 helper method return_data_as_objs
-@:param class name
+@:param IS 601
 @:return an object list ie for addition: type('addition',()  )
 '''
 
