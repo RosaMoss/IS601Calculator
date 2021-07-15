@@ -1,12 +1,15 @@
-from itertools import count
+from Operations.Addition import addition
+from Operations.Division import divide
+from Operations.Multiplication import multiply
+from Operations.Square import square
+from Operations.SquareRoot import squareRoot
+from Operations.Subtraction import subtract
 
-from BasicArithmitic import *
+
 class Calculator:
 
-    count = 0
     def __init__(self):
         self._result = 0
-        self.count = self.count + 1
         pass
 
     def add(self, a, b):
@@ -14,10 +17,16 @@ class Calculator:
     def sub(self, a, b):
         return subtract(a, b)
     def div(self, a, b):
-        return divide(a, b)
+        if(b == 0.0):
+            raise ZeroDivisionError("cant divide by zero")
+        else:
+            return divide(a, b)
     def mul(self, a, b):
         return multiply(a, b)
     def square(self, a):
         return square(a)
     def squRoot(self, a):
-        return squareRoot(a)
+        if(a < 0.0):
+            raise ValueError("A negative number is entered")
+        else:
+            return squareRoot(a)
