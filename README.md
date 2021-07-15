@@ -1,18 +1,33 @@
 # IS601Calculator
-Project 1 
 
-For this project, you need to create a calculator using Python that has automated unit tests.  Your calculator is required to perform the following operations: addition, subtraction, multiplication, division, square, and square root.  You need to correctly use static methods, object methods, object attributes/properties.   You need to use the included files to load data for your unit tests.  Use each file to test the associated operation.   
+Project 1/2 - Calculator
 
-You need to make at least 7 unit tests and should develop your tests as you write the program.  For example, you should test object instantiation when you write the code to create the object.  You must not repeat code and will lose points for any code repetition.   You should try to make a commit for each successful step you take writing the program and include a unit test with that step.
+Part 1:
+1. Addition 
+2. Subtraction 
+3. Multplication 
+4. Divsion 
+5. Square Root
 
-Requirements
+Part 2:
+Statistical Function 
+ 
+ Population Mean
+ Median
+ Mode
+ Population Standard Deviation
+ Variance of population proportion
+ Z-Score
+ Population Correlation Coefficient
+ Confidence Interval
+ Population Variance
+ P Value
+ Proportion
+ Sample Mean
+ Sample Standard Deviation
+ Variance of sample proportion
+This uses both built-in functions and CSV data sheets to test the functionality of the calculator.
 
-Correct usage of the object and static methods and properties
-
-At least 7 unit tests
-
-At least 7 commits
-
-Your program works
-
-Your docker file is set up to run the program
+References:
+http://www.mbaexcel.com/excel/how-to-create-a-normally-distributed-set-of-random-numbers-in-excel/
+https://www.geeksforgeeks.com
