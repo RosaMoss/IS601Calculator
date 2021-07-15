@@ -20,7 +20,6 @@ def return_data_as_objs(classname, dictData):
 
 '''
 This class only reads a file in CSV
-should technically read A file regardless of filetype but mehh
 '''
 class ReaderOfCSVs:
     data = [] #this var ruined it all for me
@@ -28,9 +27,6 @@ class ReaderOfCSVs:
     Constructor
     @:param filepath
     open a file path specified for reading a csv
-    DictReader from csv reads and reads it as a dictionary per line
-    for example: {Value1: 580, Value2: 459, Result: 1039}
-    until EOF
     Each row in the csvRow is then added to a list
     '''
     def __init__(self, filepapa):
